@@ -1,0 +1,15 @@
+.recipe-hero {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 80vh; /* Full viewport height, adjust as needed */
+    text-align: center; /* Center text within the container */
+  }
+  
+  .recipe-hero img {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
